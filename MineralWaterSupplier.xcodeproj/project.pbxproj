@@ -1,0 +1,1217 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C10738B29A4FAB800DEF5BC /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C10738A29A4FAB800DEF5BC /* Utility.swift */; };
+		0CB77E17299B87AC009EAC7C /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB77E16299B87AC009EAC7C /* MenuViewController.swift */; };
+		0CB77E1A299B9396009EAC7C /* RedirectHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB77E19299B9396009EAC7C /* RedirectHelper.swift */; };
+		18111F3A2A080C7C0042A475 /* updateProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18111F392A080C7C0042A475 /* updateProductsViewController.swift */; };
+		18114FAE296E06B30076FC07 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18114FAD296E06B30076FC07 /* SplashViewController.swift */; };
+		1812306F29B1FFFD0074039E /* AdminModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1812306E29B1FFFD0074039E /* AdminModels.swift */; };
+		181430702A1D817000782C67 /* agencyOrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1814306F2A1D817000782C67 /* agencyOrderTableViewCell.swift */; };
+		181430722A1D818C00782C67 /* agencyOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181430712A1D818C00782C67 /* agencyOrderViewController.swift */; };
+		1815FCC329C1B57D00BBD91A /* Customertabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1815FCC229C1B57D00BBD91A /* Customertabbar.swift */; };
+		181EF45029BE45F800CFB2EA /* VendorHomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181EF44F29BE45F800CFB2EA /* VendorHomeTableViewCell.swift */; };
+		18208B1529BA19870046140E /* RedirectScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18208B1429BA19870046140E /* RedirectScreen.swift */; };
+		1821E80329B66E93000D39F7 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1821E80229B66E93000D39F7 /* Product.swift */; };
+		18233B5C296DC9A90087743F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18233B5B296DC9A90087743F /* AppDelegate.swift */; };
+		18233B5E296DC9A90087743F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18233B5D296DC9A90087743F /* SceneDelegate.swift */; };
+		18233B63296DC9A90087743F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18233B61296DC9A90087743F /* Main.storyboard */; };
+		18233B66296DC9A90087743F /* MineralWaterSupplier.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18233B64296DC9A90087743F /* MineralWaterSupplier.xcdatamodeld */; };
+		18233B68296DC9AC0087743F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18233B67296DC9AC0087743F /* Assets.xcassets */; };
+		18233B6B296DC9AC0087743F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18233B69296DC9AC0087743F /* LaunchScreen.storyboard */; };
+		1829C49229B3FD2700F5128A /* vendorTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1829C49129B3FD2700F5128A /* vendorTabBar.swift */; };
+		182F6BBB2A3A4D01002600D8 /* demoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182F6BBA2A3A4D01002600D8 /* demoViewController.swift */; };
+		183193612A1D681A0049F9C4 /* SuperAdminHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183193602A1D681A0049F9C4 /* SuperAdminHomeViewController.swift */; };
+		183193632A1D68C00049F9C4 /* AgencyRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183193622A1D68C00049F9C4 /* AgencyRequestViewController.swift */; };
+		183193652A1D68FC0049F9C4 /* AgencyrequestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183193642A1D68FC0049F9C4 /* AgencyrequestTableViewCell.swift */; };
+		18338F4029DC87510076B18A /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18338F3F29DC87510076B18A /* Cart.swift */; };
+		18338F4229DC8D720076B18A /* CartDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18338F4129DC8D720076B18A /* CartDisplayViewController.swift */; };
+		18338F4629DC96E20076B18A /* CustomerCartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18338F4529DC96E20076B18A /* CustomerCartTableViewCell.swift */; };
+		1835163C29AA6AD3002FA001 /* AddProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1835163B29AA6AD3002FA001 /* AddProductsViewController.swift */; };
+		183611DE29C7841B003265DF /* VendorProductDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183611DD29C7841B003265DF /* VendorProductDetailsViewController.swift */; };
+		18398F672A0563030022FC1F /* OrderDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18398F662A0563030022FC1F /* OrderDetailTableViewCell.swift */; };
+		183D7D8D29A52C7B001EA3AA /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183D7D8C29A52C7B001EA3AA /* Background.swift */; };
+		183FE54D2978805800CF6D44 /* AdminRankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183FE54C2978805800CF6D44 /* AdminRankingViewController.swift */; };
+		183FE550297894DD00CF6D44 /* RankingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183FE54F297894DD00CF6D44 /* RankingTableViewCell.swift */; };
+		183FE552297897F200CF6D44 /* Ranking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183FE551297897F200CF6D44 /* Ranking.swift */; };
+		183FE5542978A11500CF6D44 /* VendorRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183FE5532978A11500CF6D44 /* VendorRequestViewController.swift */; };
+		183FE5592978A35B00CF6D44 /* vendorrequestcellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183FE5582978A35B00CF6D44 /* vendorrequestcellTableViewCell.swift */; };
+		18409CB32978DE7100B711AA /* OrderDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18409CB22978DE7100B711AA /* OrderDetailsViewController.swift */; };
+		18409CB62978E4B600B711AA /* UpdateStatusAdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18409CB52978E4B600B711AA /* UpdateStatusAdminViewController.swift */; };
+		1840CC522978D77D009287CF /* totalorderadminTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1840CC512978D77D009287CF /* totalorderadminTableViewCell.swift */; };
+		184DB7322978B98D00CCC904 /* TotalOrderAdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184DB7312978B98D00CCC904 /* TotalOrderAdminViewController.swift */; };
+		1855DFB62A0FD5DB00D7B53F /* PlaceOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1855DFB52A0FD5DB00D7B53F /* PlaceOrderViewController.swift */; };
+		18580FAF297847830001E2AA /* AdminHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18580FAE297847830001E2AA /* AdminHomeViewController.swift */; };
+		185E6F2A2A2292C600947AA4 /* WeeklyScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185E6F292A2292C600947AA4 /* WeeklyScheduleViewController.swift */; };
+		18616EFD29D17F2A00CFDBED /* CustomerHomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18616EFC29D17F2A00CFDBED /* CustomerHomeCollectionViewCell.swift */; };
+		186249802A18D5920007312A /* CustomerMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1862497F2A18D5920007312A /* CustomerMenuViewController.swift */; };
+		186267FC297AFFA900867798 /* CustomerOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186267FB297AFFA900867798 /* CustomerOrderViewController.swift */; };
+		18680FF52973266500482578 /* CustomerHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18680FF42973266500482578 /* CustomerHomeViewController.swift */; };
+		186D0A1029A7735600652F06 /* APIWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186D0A0F29A7735600652F06 /* APIWrapper.swift */; };
+		1871DAFF2A2009BD002D35F4 /* agencyOrderDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1871DAFE2A2009BD002D35F4 /* agencyOrderDetailsViewController.swift */; };
+		1871DB012A2009DA002D35F4 /* agencyorderdetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1871DB002A2009DA002D35F4 /* agencyorderdetailsTableViewCell.swift */; };
+		1874C4362A228781007295A6 /* VendorMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1874C4352A228781007295A6 /* VendorMenuViewController.swift */; };
+		1874FD002A20CB9F00CE2595 /* AssignOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1874FCFF2A20CB9F00CE2595 /* AssignOrderViewController.swift */; };
+		1874FD022A20CD1100CE2595 /* AssignOrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1874FD012A20CD1100CE2595 /* AssignOrderTableViewCell.swift */; };
+		187507BA2A1A81BA00FBDD5E /* Rating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187507B92A1A81BA00FBDD5E /* Rating.swift */; };
+		187507BC2A1A942C00FBDD5E /* RateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187507BB2A1A942C00FBDD5E /* RateViewController.swift */; };
+		18786F962A062FED000B03C4 /* SpecialofferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18786F952A062FED000B03C4 /* SpecialofferViewController.swift */; };
+		18786F982A063014000B03C4 /* SpecailOfferTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18786F972A063014000B03C4 /* SpecailOfferTableViewCell.swift */; };
+		18786F9B2A06558F000B03C4 /* viewRatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18786F9A2A06558F000B03C4 /* viewRatesViewController.swift */; };
+		18786F9D2A0655E5000B03C4 /* viewRatesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18786F9C2A0655E5000B03C4 /* viewRatesTableViewCell.swift */; };
+		187938592A0460D400DEFC11 /* Orders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187938582A0460D400DEFC11 /* Orders.swift */; };
+		1879B9852A1F85780049F22A /* NewOrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1879B9842A1F85780049F22A /* NewOrdersViewController.swift */; };
+		1879B9872A1F858E0049F22A /* NewOrdersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1879B9862A1F858E0049F22A /* NewOrdersTableViewCell.swift */; };
+		187BF9C82978F08F004E1E22 /* vendorHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187BF9C72978F08F004E1E22 /* vendorHomeViewController.swift */; };
+		187F47112A34D308004C082B /* DeliveryBoyHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187F47102A34D308004C082B /* DeliveryBoyHomeViewController.swift */; };
+		187F47132A34D3A4004C082B /* DeliveryboyhomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187F47122A34D3A4004C082B /* DeliveryboyhomeTableViewCell.swift */; };
+		187F47152A351075004C082B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187F47142A351075004C082B /* HomeViewController.swift */; };
+		187F47172A351752004C082B /* StartRideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187F47162A351752004C082B /* StartRideViewController.swift */; };
+		188016A62A1AC53700FF014F /* saveLocViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188016A52A1AC53700FF014F /* saveLocViewController.swift */; };
+		188B28C22976F130002EF12F /* UITextFieldX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188B28C12976F130002EF12F /* UITextFieldX.swift */; };
+		189BC4ED29A3A8760064FA1F /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189BC4EC29A3A8760064FA1F /* NetworkHelper.swift */; };
+		189C7B8C2A23D0BD00F42CA4 /* ExportCsvViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C7B8B2A23D0BD00F42CA4 /* ExportCsvViewController.swift */; };
+		18AB2D5E29787EEB00B09D35 /* AuthNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB2D5D29787EEB00B09D35 /* AuthNavigationController.swift */; };
+		18ABE5B82A1903BD0065F43E /* RatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ABE5B72A1903BD0065F43E /* RatingViewController.swift */; };
+		18ABE5BA2A194BBB0065F43E /* RatingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ABE5B92A194BBB0065F43E /* RatingTableViewCell.swift */; };
+		18ABE5BC2A195B2B0065F43E /* GiveRatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ABE5BB2A195B2B0065F43E /* GiveRatingViewController.swift */; };
+		18AC52E029B1269E00942F80 /* AddwarehouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AC52DF29B1269E00942F80 /* AddwarehouseViewController.swift */; };
+		18AE87E32A1814B700560AA9 /* SearchMaplocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AE87E22A1814B700560AA9 /* SearchMaplocationViewController.swift */; };
+		18C32A012A087469001B8547 /* trackingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C32A002A087469001B8547 /* trackingViewController.swift */; };
+		18C365372A2033FF006FE37C /* AddScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C365362A2033FE006FE37C /* AddScheduleViewController.swift */; };
+		18CF33F42A237CBE006BF30E /* ShowScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CF33F32A237CBE006BF30E /* ShowScheduleViewController.swift */; };
+		18CF33F62A237CDF006BF30E /* ShowScheduleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CF33F52A237CDF006BF30E /* ShowScheduleTableViewCell.swift */; };
+		18D240B82A1FD39C00669286 /* neworderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D240B72A1FD39C00669286 /* neworderViewController.swift */; };
+		18D7BF5E296DCBF20014BFC2 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D7BF5D296DCBF20014BFC2 /* LoginModel.swift */; };
+		18D7BF60296DCD240014BFC2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D7BF5F296DCD240014BFC2 /* LoginViewController.swift */; };
+		18D7BF62296DCEAB0014BFC2 /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D7BF61296DCEAB0014BFC2 /* Auth.storyboard */; };
+		595C562DDCA835A105DC6C04 /* Pods_MineralWaterSupplier.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404C062FB428B42C39B2780B /* Pods_MineralWaterSupplier.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		980A02BF296DDEB8004465F2 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980A02BE296DDEB8004465F2 /* UIView+Extension.swift */; };
+		980A02C1296DE197004465F2 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 980A02C0296DE197004465F2 /* Color.xcassets */; };
+		980A02C5296DE85F004465F2 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980A02C4296DE85F004465F2 /* SignupViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C10738A29A4FAB800DEF5BC /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		0CB77E16299B87AC009EAC7C /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		0CB77E19299B9396009EAC7C /* RedirectHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedirectHelper.swift; sourceTree = "<group>"; };
+		18111F392A080C7C0042A475 /* updateProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = updateProductsViewController.swift; sourceTree = "<group>"; };
+		18114FAD296E06B30076FC07 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		1812306E29B1FFFD0074039E /* AdminModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminModels.swift; sourceTree = "<group>"; };
+		1814306F2A1D817000782C67 /* agencyOrderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = agencyOrderTableViewCell.swift; sourceTree = "<group>"; };
+		181430712A1D818C00782C67 /* agencyOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = agencyOrderViewController.swift; sourceTree = "<group>"; };
+		1815FCC229C1B57D00BBD91A /* Customertabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customertabbar.swift; sourceTree = "<group>"; };
+		181EF44F29BE45F800CFB2EA /* VendorHomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendorHomeTableViewCell.swift; sourceTree = "<group>"; };
+		18208B1429BA19870046140E /* RedirectScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedirectScreen.swift; sourceTree = "<group>"; };
+		1821E80229B66E93000D39F7 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		18233B58296DC9A90087743F /* MineralWaterSupplier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MineralWaterSupplier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18233B5B296DC9A90087743F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18233B5D296DC9A90087743F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18233B62296DC9A90087743F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18233B65296DC9A90087743F /* MineralWaterSupplier.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MineralWaterSupplier.xcdatamodel; sourceTree = "<group>"; };
+		18233B67296DC9AC0087743F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18233B6A296DC9AC0087743F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18233B6C296DC9AC0087743F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1829C49129B3FD2700F5128A /* vendorTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vendorTabBar.swift; sourceTree = "<group>"; };
+		182F6BBA2A3A4D01002600D8 /* demoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demoViewController.swift; sourceTree = "<group>"; };
+		183193602A1D681A0049F9C4 /* SuperAdminHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperAdminHomeViewController.swift; sourceTree = "<group>"; };
+		183193622A1D68C00049F9C4 /* AgencyRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgencyRequestViewController.swift; sourceTree = "<group>"; };
+		183193642A1D68FC0049F9C4 /* AgencyrequestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgencyrequestTableViewCell.swift; sourceTree = "<group>"; };
+		18338F3F29DC87510076B18A /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		18338F4129DC8D720076B18A /* CartDisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartDisplayViewController.swift; sourceTree = "<group>"; };
+		18338F4529DC96E20076B18A /* CustomerCartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerCartTableViewCell.swift; sourceTree = "<group>"; };
+		1835163B29AA6AD3002FA001 /* AddProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductsViewController.swift; sourceTree = "<group>"; };
+		183611DD29C7841B003265DF /* VendorProductDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendorProductDetailsViewController.swift; sourceTree = "<group>"; };
+		18398F662A0563030022FC1F /* OrderDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailTableViewCell.swift; sourceTree = "<group>"; };
+		183D7D8C29A52C7B001EA3AA /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		183FE54C2978805800CF6D44 /* AdminRankingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminRankingViewController.swift; sourceTree = "<group>"; };
+		183FE54F297894DD00CF6D44 /* RankingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingTableViewCell.swift; sourceTree = "<group>"; };
+		183FE551297897F200CF6D44 /* Ranking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ranking.swift; sourceTree = "<group>"; };
+		183FE5532978A11500CF6D44 /* VendorRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendorRequestViewController.swift; sourceTree = "<group>"; };
+		183FE5582978A35B00CF6D44 /* vendorrequestcellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vendorrequestcellTableViewCell.swift; sourceTree = "<group>"; };
+		18409CB22978DE7100B711AA /* OrderDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailsViewController.swift; sourceTree = "<group>"; };
+		18409CB52978E4B600B711AA /* UpdateStatusAdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateStatusAdminViewController.swift; sourceTree = "<group>"; };
+		1840CC512978D77D009287CF /* totalorderadminTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = totalorderadminTableViewCell.swift; sourceTree = "<group>"; };
+		184DB7312978B98D00CCC904 /* TotalOrderAdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalOrderAdminViewController.swift; sourceTree = "<group>"; };
+		1855DFB52A0FD5DB00D7B53F /* PlaceOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceOrderViewController.swift; sourceTree = "<group>"; };
+		18580FAE297847830001E2AA /* AdminHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminHomeViewController.swift; sourceTree = "<group>"; };
+		185E6F292A2292C600947AA4 /* WeeklyScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyScheduleViewController.swift; sourceTree = "<group>"; };
+		18616EFC29D17F2A00CFDBED /* CustomerHomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerHomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		1862497F2A18D5920007312A /* CustomerMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerMenuViewController.swift; sourceTree = "<group>"; };
+		186267FB297AFFA900867798 /* CustomerOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerOrderViewController.swift; sourceTree = "<group>"; };
+		18680FF42973266500482578 /* CustomerHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerHomeViewController.swift; sourceTree = "<group>"; };
+		186D0A0F29A7735600652F06 /* APIWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIWrapper.swift; sourceTree = "<group>"; };
+		1871DAFE2A2009BD002D35F4 /* agencyOrderDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = agencyOrderDetailsViewController.swift; sourceTree = "<group>"; };
+		1871DB002A2009DA002D35F4 /* agencyorderdetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = agencyorderdetailsTableViewCell.swift; sourceTree = "<group>"; };
+		1874C4352A228781007295A6 /* VendorMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendorMenuViewController.swift; sourceTree = "<group>"; };
+		1874FCFF2A20CB9F00CE2595 /* AssignOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignOrderViewController.swift; sourceTree = "<group>"; };
+		1874FD012A20CD1100CE2595 /* AssignOrderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignOrderTableViewCell.swift; sourceTree = "<group>"; };
+		187507B92A1A81BA00FBDD5E /* Rating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rating.swift; sourceTree = "<group>"; };
+		187507BB2A1A942C00FBDD5E /* RateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateViewController.swift; sourceTree = "<group>"; };
+		18786F952A062FED000B03C4 /* SpecialofferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialofferViewController.swift; sourceTree = "<group>"; };
+		18786F972A063014000B03C4 /* SpecailOfferTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecailOfferTableViewCell.swift; sourceTree = "<group>"; };
+		18786F9A2A06558F000B03C4 /* viewRatesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewRatesViewController.swift; sourceTree = "<group>"; };
+		18786F9C2A0655E5000B03C4 /* viewRatesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewRatesTableViewCell.swift; sourceTree = "<group>"; };
+		187938582A0460D400DEFC11 /* Orders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orders.swift; sourceTree = "<group>"; };
+		1879B9842A1F85780049F22A /* NewOrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewOrdersViewController.swift; sourceTree = "<group>"; };
+		1879B9862A1F858E0049F22A /* NewOrdersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewOrdersTableViewCell.swift; sourceTree = "<group>"; };
+		187BF9C72978F08F004E1E22 /* vendorHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vendorHomeViewController.swift; sourceTree = "<group>"; };
+		187F47102A34D308004C082B /* DeliveryBoyHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryBoyHomeViewController.swift; sourceTree = "<group>"; };
+		187F47122A34D3A4004C082B /* DeliveryboyhomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryboyhomeTableViewCell.swift; sourceTree = "<group>"; };
+		187F47142A351075004C082B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		187F47162A351752004C082B /* StartRideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartRideViewController.swift; sourceTree = "<group>"; };
+		188016A52A1AC53700FF014F /* saveLocViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = saveLocViewController.swift; sourceTree = "<group>"; };
+		188B28C12976F130002EF12F /* UITextFieldX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldX.swift; sourceTree = "<group>"; };
+		189BC4EC29A3A8760064FA1F /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		189C7B8B2A23D0BD00F42CA4 /* ExportCsvViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportCsvViewController.swift; sourceTree = "<group>"; };
+		18AB2D5D29787EEB00B09D35 /* AuthNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthNavigationController.swift; sourceTree = "<group>"; };
+		18ABE5B72A1903BD0065F43E /* RatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingViewController.swift; sourceTree = "<group>"; };
+		18ABE5B92A194BBB0065F43E /* RatingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingTableViewCell.swift; sourceTree = "<group>"; };
+		18ABE5BB2A195B2B0065F43E /* GiveRatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiveRatingViewController.swift; sourceTree = "<group>"; };
+		18AC52DF29B1269E00942F80 /* AddwarehouseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddwarehouseViewController.swift; sourceTree = "<group>"; };
+		18AE87E22A1814B700560AA9 /* SearchMaplocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMaplocationViewController.swift; sourceTree = "<group>"; };
+		18C32A002A087469001B8547 /* trackingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trackingViewController.swift; sourceTree = "<group>"; };
+		18C365362A2033FE006FE37C /* AddScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddScheduleViewController.swift; sourceTree = "<group>"; };
+		18CF33F32A237CBE006BF30E /* ShowScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowScheduleViewController.swift; sourceTree = "<group>"; };
+		18CF33F52A237CDF006BF30E /* ShowScheduleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowScheduleTableViewCell.swift; sourceTree = "<group>"; };
+		18D240B72A1FD39C00669286 /* neworderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = neworderViewController.swift; sourceTree = "<group>"; };
+		18D7BF5D296DCBF20014BFC2 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		18D7BF5F296DCD240014BFC2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		18D7BF61296DCEAB0014BFC2 /* Auth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
+		404C062FB428B42C39B2780B /* Pods_MineralWaterSupplier.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MineralWaterSupplier.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B4D05F04E05881BEFC27C68 /* Pods-MineralWaterSupplier.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MineralWaterSupplier.release.xcconfig"; path = "Target Support Files/Pods-MineralWaterSupplier/Pods-MineralWaterSupplier.release.xcconfig"; sourceTree = "<group>"; };
+		82172666F592C22748DA138A /* Pods-MineralWaterSupplier.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MineralWaterSupplier.debug.xcconfig"; path = "Target Support Files/Pods-MineralWaterSupplier/Pods-MineralWaterSupplier.debug.xcconfig"; sourceTree = "<group>"; };
+		980A02BE296DDEB8004465F2 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		980A02C0296DE197004465F2 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		980A02C4296DE85F004465F2 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18233B55296DC9A90087743F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				595C562DDCA835A105DC6C04 /* Pods_MineralWaterSupplier.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CB77E15299B879E009EAC7C /* AdminMenu */ = {
+			isa = PBXGroup;
+			children = (
+				0CB77E16299B87AC009EAC7C /* MenuViewController.swift */,
+			);
+			path = AdminMenu;
+			sourceTree = "<group>";
+		};
+		0CB77E18299B9385009EAC7C /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				186D0A0F29A7735600652F06 /* APIWrapper.swift */,
+				0CB77E19299B9396009EAC7C /* RedirectHelper.swift */,
+				0C10738A29A4FAB800DEF5BC /* Utility.swift */,
+				18208B1429BA19870046140E /* RedirectScreen.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		18111F382A080BF40042A475 /* UpdateProducts */ = {
+			isa = PBXGroup;
+			children = (
+				18111F392A080C7C0042A475 /* updateProductsViewController.swift */,
+			);
+			path = UpdateProducts;
+			sourceTree = "<group>";
+		};
+		18114FAC296E068C0076FC07 /* splash */ = {
+			isa = PBXGroup;
+			children = (
+				18114FAD296E06B30076FC07 /* SplashViewController.swift */,
+			);
+			path = splash;
+			sourceTree = "<group>";
+		};
+		1812306D29B1FF470074039E /* AdminModel */ = {
+			isa = PBXGroup;
+			children = (
+				1812306E29B1FFFD0074039E /* AdminModels.swift */,
+			);
+			path = AdminModel;
+			sourceTree = "<group>";
+		};
+		1814306B2A1D79C700782C67 /* AdminOrders */ = {
+			isa = PBXGroup;
+			children = (
+				1814306F2A1D817000782C67 /* agencyOrderTableViewCell.swift */,
+				181430712A1D818C00782C67 /* agencyOrderViewController.swift */,
+			);
+			path = AdminOrders;
+			sourceTree = "<group>";
+		};
+		1814306C2A1D79F700782C67 /* AdminOrderdetails */ = {
+			isa = PBXGroup;
+			children = (
+				1871DAFE2A2009BD002D35F4 /* agencyOrderDetailsViewController.swift */,
+				1871DB002A2009DA002D35F4 /* agencyorderdetailsTableViewCell.swift */,
+			);
+			path = AdminOrderdetails;
+			sourceTree = "<group>";
+		};
+		1814306E2A1D7A1D00782C67 /* AssignOrders */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AssignOrders;
+			sourceTree = "<group>";
+		};
+		181EF44C29BE456900CFB2EA /* VendorHome */ = {
+			isa = PBXGroup;
+			children = (
+				187BF9C72978F08F004E1E22 /* vendorHomeViewController.swift */,
+				181EF44F29BE45F800CFB2EA /* VendorHomeTableViewCell.swift */,
+			);
+			path = VendorHome;
+			sourceTree = "<group>";
+		};
+		18233B4F296DC9A90087743F = {
+			isa = PBXGroup;
+			children = (
+				18233B5A296DC9A90087743F /* MineralWaterSupplier */,
+				18233B59296DC9A90087743F /* Products */,
+				765231EA6796D3DA80A2879D /* Pods */,
+				7A87D88F1FE1240B8A851CD2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18233B59296DC9A90087743F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18233B58296DC9A90087743F /* MineralWaterSupplier.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18233B5A296DC9A90087743F /* MineralWaterSupplier */ = {
+			isa = PBXGroup;
+			children = (
+				183D7D8B29A52C64001EA3AA /* Theme */,
+				189BC4EB29A3A8430064FA1F /* Network */,
+				0CB77E18299B9385009EAC7C /* Helper */,
+				18D7BF53296DCB360014BFC2 /* Views */,
+				980A02BD296DDE7D004465F2 /* Extensions */,
+				980A02BC296DD2D9004465F2 /* Lifecycle */,
+				980A02BB296DD2CB004465F2 /* Assets */,
+				18D7BF52296DCB2C0014BFC2 /* Full Project */,
+				18233B6C296DC9AC0087743F /* Info.plist */,
+				18233B64296DC9A90087743F /* MineralWaterSupplier.xcdatamodeld */,
+				18AB2D5D29787EEB00B09D35 /* AuthNavigationController.swift */,
+			);
+			path = MineralWaterSupplier;
+			sourceTree = "<group>";
+		};
+		182CA3DF2A21562D00CEBEFA /* DeliveryBoy */ = {
+			isa = PBXGroup;
+			children = (
+				182CA3E02A21572B00CEBEFA /* Home */,
+				182CA3E22A21574A00CEBEFA /* Start Ride */,
+				187F47142A351075004C082B /* HomeViewController.swift */,
+			);
+			path = DeliveryBoy;
+			sourceTree = "<group>";
+		};
+		182CA3E02A21572B00CEBEFA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				187F47102A34D308004C082B /* DeliveryBoyHomeViewController.swift */,
+				187F47122A34D3A4004C082B /* DeliveryboyhomeTableViewCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		182CA3E22A21574A00CEBEFA /* Start Ride */ = {
+			isa = PBXGroup;
+			children = (
+				187F47162A351752004C082B /* StartRideViewController.swift */,
+			);
+			path = "Start Ride";
+			sourceTree = "<group>";
+		};
+		1831935E2A1D64430049F9C4 /* AgencyRequest */ = {
+			isa = PBXGroup;
+			children = (
+				183193622A1D68C00049F9C4 /* AgencyRequestViewController.swift */,
+				183193642A1D68FC0049F9C4 /* AgencyrequestTableViewCell.swift */,
+			);
+			path = AgencyRequest;
+			sourceTree = "<group>";
+		};
+		1831935F2A1D649E0049F9C4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				183193602A1D681A0049F9C4 /* SuperAdminHomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		183193662A1D69690049F9C4 /* Ranking */ = {
+			isa = PBXGroup;
+			children = (
+				183FE551297897F200CF6D44 /* Ranking.swift */,
+				183FE54F297894DD00CF6D44 /* RankingTableViewCell.swift */,
+				183FE54C2978805800CF6D44 /* AdminRankingViewController.swift */,
+			);
+			path = Ranking;
+			sourceTree = "<group>";
+		};
+		18338F4329DC96890076B18A /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				18338F4129DC8D720076B18A /* CartDisplayViewController.swift */,
+				18338F4529DC96E20076B18A /* CustomerCartTableViewCell.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		18338F4429DC96A70076B18A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				18680FF42973266500482578 /* CustomerHomeViewController.swift */,
+				1815FCC229C1B57D00BBD91A /* Customertabbar.swift */,
+				18616EFC29D17F2A00CFDBED /* CustomerHomeCollectionViewCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1835163A29AA6AA2002FA001 /* AddProducts */ = {
+			isa = PBXGroup;
+			children = (
+				1835163B29AA6AD3002FA001 /* AddProductsViewController.swift */,
+			);
+			path = AddProducts;
+			sourceTree = "<group>";
+		};
+		183611DC29C78310003265DF /* VendorproductDetails */ = {
+			isa = PBXGroup;
+			children = (
+				183611DD29C7841B003265DF /* VendorProductDetailsViewController.swift */,
+			);
+			path = VendorproductDetails;
+			sourceTree = "<group>";
+		};
+		183D7D8B29A52C64001EA3AA /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				183D7D8C29A52C7B001EA3AA /* Background.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		183FE5552978A2C900CF6D44 /* vendorrequest */ = {
+			isa = PBXGroup;
+			children = (
+				183FE5532978A11500CF6D44 /* VendorRequestViewController.swift */,
+				183FE5582978A35B00CF6D44 /* vendorrequestcellTableViewCell.swift */,
+			);
+			path = vendorrequest;
+			sourceTree = "<group>";
+		};
+		18409CB12978DE4000B711AA /* Orderdetail */ = {
+			isa = PBXGroup;
+			children = (
+				18409CB22978DE7100B711AA /* OrderDetailsViewController.swift */,
+				18398F662A0563030022FC1F /* OrderDetailTableViewCell.swift */,
+			);
+			path = Orderdetail;
+			sourceTree = "<group>";
+		};
+		18409CB42978E48C00B711AA /* OrderStatus */ = {
+			isa = PBXGroup;
+			children = (
+				18409CB52978E4B600B711AA /* UpdateStatusAdminViewController.swift */,
+			);
+			path = OrderStatus;
+			sourceTree = "<group>";
+		};
+		184DB7302978B8B000CCC904 /* MyOrders */ = {
+			isa = PBXGroup;
+			children = (
+				184DB7312978B98D00CCC904 /* TotalOrderAdminViewController.swift */,
+				1840CC512978D77D009287CF /* totalorderadminTableViewCell.swift */,
+			);
+			path = MyOrders;
+			sourceTree = "<group>";
+		};
+		1855DFB42A0FD59D00D7B53F /* PlaceOrder */ = {
+			isa = PBXGroup;
+			children = (
+				1855DFB52A0FD5DB00D7B53F /* PlaceOrderViewController.swift */,
+			);
+			path = PlaceOrder;
+			sourceTree = "<group>";
+		};
+		18580FAD2978475E0001E2AA /* Admin */ = {
+			isa = PBXGroup;
+			children = (
+				1874FCFE2A20CB6600CE2595 /* AssignDeliveryBoys */,
+				1879B9832A1F85550049F22A /* OrdersRequest */,
+				1814306E2A1D7A1D00782C67 /* AssignOrders */,
+				1814306C2A1D79F700782C67 /* AdminOrderdetails */,
+				1814306B2A1D79C700782C67 /* AdminOrders */,
+				1812306D29B1FF470074039E /* AdminModel */,
+				18AC52DE29B1267200942F80 /* Addwarehouse */,
+				18580FAE297847830001E2AA /* AdminHomeViewController.swift */,
+			);
+			path = Admin;
+			sourceTree = "<group>";
+		};
+		1859899C2A1CE9120095921A /* SuperAdmin */ = {
+			isa = PBXGroup;
+			children = (
+				183193662A1D69690049F9C4 /* Ranking */,
+				1831935F2A1D649E0049F9C4 /* Home */,
+				183FE5552978A2C900CF6D44 /* vendorrequest */,
+				1831935E2A1D64430049F9C4 /* AgencyRequest */,
+			);
+			path = SuperAdmin;
+			sourceTree = "<group>";
+		};
+		185E6F282A2292AC00947AA4 /* weekly */ = {
+			isa = PBXGroup;
+			children = (
+				185E6F292A2292C600947AA4 /* WeeklyScheduleViewController.swift */,
+			);
+			path = weekly;
+			sourceTree = "<group>";
+		};
+		1862497E2A18D5650007312A /* CustomerMenu */ = {
+			isa = PBXGroup;
+			children = (
+				1862497F2A18D5920007312A /* CustomerMenuViewController.swift */,
+			);
+			path = CustomerMenu;
+			sourceTree = "<group>";
+		};
+		186267FA297AFF8200867798 /* Orders */ = {
+			isa = PBXGroup;
+			children = (
+				186267FB297AFFA900867798 /* CustomerOrderViewController.swift */,
+			);
+			path = Orders;
+			sourceTree = "<group>";
+		};
+		18680FF3297325C000482578 /* CustomerHome */ = {
+			isa = PBXGroup;
+			children = (
+				18CF33F22A237C8E006BF30E /* ViewSchedule */,
+				18C365342A2033D0006FE37C /* Addschedule */,
+				18AE87E12A18149500560AA9 /* Mapwork */,
+				18409CB42978E48C00B711AA /* OrderStatus */,
+				18409CB12978DE4000B711AA /* Orderdetail */,
+				184DB7302978B8B000CCC904 /* MyOrders */,
+				18AE87E42A181C4000560AA9 /* Rating */,
+				1855DFB42A0FD59D00D7B53F /* PlaceOrder */,
+				18C329FF2A087452001B8547 /* tracking */,
+				18786F992A065467000B03C4 /* ViewRates */,
+				18786F942A062FC2000B03C4 /* SpecialOffer */,
+				18338F4429DC96A70076B18A /* Home */,
+				18338F4329DC96890076B18A /* Cart */,
+				186267FA297AFF8200867798 /* Orders */,
+			);
+			path = CustomerHome;
+			sourceTree = "<group>";
+		};
+		1874C4342A22874C007295A6 /* VendorMenu */ = {
+			isa = PBXGroup;
+			children = (
+				1874C4352A228781007295A6 /* VendorMenuViewController.swift */,
+			);
+			path = VendorMenu;
+			sourceTree = "<group>";
+		};
+		1874FCFE2A20CB6600CE2595 /* AssignDeliveryBoys */ = {
+			isa = PBXGroup;
+			children = (
+				1874FCFF2A20CB9F00CE2595 /* AssignOrderViewController.swift */,
+				1874FD012A20CD1100CE2595 /* AssignOrderTableViewCell.swift */,
+			);
+			path = AssignDeliveryBoys;
+			sourceTree = "<group>";
+		};
+		18786F942A062FC2000B03C4 /* SpecialOffer */ = {
+			isa = PBXGroup;
+			children = (
+				18786F952A062FED000B03C4 /* SpecialofferViewController.swift */,
+				18786F972A063014000B03C4 /* SpecailOfferTableViewCell.swift */,
+			);
+			path = SpecialOffer;
+			sourceTree = "<group>";
+		};
+		18786F992A065467000B03C4 /* ViewRates */ = {
+			isa = PBXGroup;
+			children = (
+				18786F9A2A06558F000B03C4 /* viewRatesViewController.swift */,
+				18786F9C2A0655E5000B03C4 /* viewRatesTableViewCell.swift */,
+			);
+			path = ViewRates;
+			sourceTree = "<group>";
+		};
+		1879B9832A1F85550049F22A /* OrdersRequest */ = {
+			isa = PBXGroup;
+			children = (
+				1879B9842A1F85780049F22A /* NewOrdersViewController.swift */,
+				1879B9862A1F858E0049F22A /* NewOrdersTableViewCell.swift */,
+				18D240B72A1FD39C00669286 /* neworderViewController.swift */,
+			);
+			path = OrdersRequest;
+			sourceTree = "<group>";
+		};
+		187BF9C62978F072004E1E22 /* vendor */ = {
+			isa = PBXGroup;
+			children = (
+				189C7B8A2A23CF8F00F42CA4 /* ExportCsv */,
+				18111F382A080BF40042A475 /* UpdateProducts */,
+				183611DC29C78310003265DF /* VendorproductDetails */,
+				181EF44C29BE456900CFB2EA /* VendorHome */,
+				1835163A29AA6AA2002FA001 /* AddProducts */,
+				1829C49129B3FD2700F5128A /* vendorTabBar.swift */,
+			);
+			path = vendor;
+			sourceTree = "<group>";
+		};
+		189BC4EB29A3A8430064FA1F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				189BC4EC29A3A8760064FA1F /* NetworkHelper.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		189C7B8A2A23CF8F00F42CA4 /* ExportCsv */ = {
+			isa = PBXGroup;
+			children = (
+				189C7B8B2A23D0BD00F42CA4 /* ExportCsvViewController.swift */,
+			);
+			path = ExportCsv;
+			sourceTree = "<group>";
+		};
+		18AC52DE29B1267200942F80 /* Addwarehouse */ = {
+			isa = PBXGroup;
+			children = (
+				18AC52DF29B1269E00942F80 /* AddwarehouseViewController.swift */,
+			);
+			path = Addwarehouse;
+			sourceTree = "<group>";
+		};
+		18AE87E12A18149500560AA9 /* Mapwork */ = {
+			isa = PBXGroup;
+			children = (
+				18AE87E22A1814B700560AA9 /* SearchMaplocationViewController.swift */,
+				188016A52A1AC53700FF014F /* saveLocViewController.swift */,
+			);
+			path = Mapwork;
+			sourceTree = "<group>";
+		};
+		18AE87E42A181C4000560AA9 /* Rating */ = {
+			isa = PBXGroup;
+			children = (
+				18ABE5B92A194BBB0065F43E /* RatingTableViewCell.swift */,
+				18ABE5B72A1903BD0065F43E /* RatingViewController.swift */,
+				18ABE5BB2A195B2B0065F43E /* GiveRatingViewController.swift */,
+				187507BB2A1A942C00FBDD5E /* RateViewController.swift */,
+			);
+			path = Rating;
+			sourceTree = "<group>";
+		};
+		18C329FF2A087452001B8547 /* tracking */ = {
+			isa = PBXGroup;
+			children = (
+				18C32A002A087469001B8547 /* trackingViewController.swift */,
+			);
+			path = tracking;
+			sourceTree = "<group>";
+		};
+		18C365342A2033D0006FE37C /* Addschedule */ = {
+			isa = PBXGroup;
+			children = (
+				18C365362A2033FE006FE37C /* AddScheduleViewController.swift */,
+				185E6F282A2292AC00947AA4 /* weekly */,
+			);
+			path = Addschedule;
+			sourceTree = "<group>";
+		};
+		18CF33F22A237C8E006BF30E /* ViewSchedule */ = {
+			isa = PBXGroup;
+			children = (
+				18CF33F32A237CBE006BF30E /* ShowScheduleViewController.swift */,
+				18CF33F52A237CDF006BF30E /* ShowScheduleTableViewCell.swift */,
+			);
+			path = ViewSchedule;
+			sourceTree = "<group>";
+		};
+		18D7BF52296DCB2C0014BFC2 /* Full Project */ = {
+			isa = PBXGroup;
+			children = (
+				1874C4342A22874C007295A6 /* VendorMenu */,
+				1862497E2A18D5650007312A /* CustomerMenu */,
+				0CB77E15299B879E009EAC7C /* AdminMenu */,
+				182CA3DF2A21562D00CEBEFA /* DeliveryBoy */,
+				1859899C2A1CE9120095921A /* SuperAdmin */,
+				187BF9C62978F072004E1E22 /* vendor */,
+				18580FAD2978475E0001E2AA /* Admin */,
+				18680FF3297325C000482578 /* CustomerHome */,
+				18114FAC296E068C0076FC07 /* splash */,
+				980A02C2296DE843004465F2 /* Signup */,
+				18D7BF57296DCB6A0014BFC2 /* Login */,
+				18D7BF5A296DCB900014BFC2 /* Model */,
+				18D7BF56296DCB570014BFC2 /* Auth module */,
+				182F6BBA2A3A4D01002600D8 /* demoViewController.swift */,
+			);
+			path = "Full Project";
+			sourceTree = "<group>";
+		};
+		18D7BF53296DCB360014BFC2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18233B69296DC9AC0087743F /* LaunchScreen.storyboard */,
+				18233B61296DC9A90087743F /* Main.storyboard */,
+				18D7BF61296DCEAB0014BFC2 /* Auth.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		18D7BF56296DCB570014BFC2 /* Auth module */ = {
+			isa = PBXGroup;
+			children = (
+				18D7BF59296DCB7D0014BFC2 /* Forgot Password */,
+			);
+			path = "Auth module";
+			sourceTree = "<group>";
+		};
+		18D7BF57296DCB6A0014BFC2 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				18D7BF5F296DCD240014BFC2 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		18D7BF59296DCB7D0014BFC2 /* Forgot Password */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Forgot Password";
+			sourceTree = "<group>";
+		};
+		18D7BF5A296DCB900014BFC2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18D7BF5D296DCBF20014BFC2 /* LoginModel.swift */,
+				1821E80229B66E93000D39F7 /* Product.swift */,
+				18338F3F29DC87510076B18A /* Cart.swift */,
+				187938582A0460D400DEFC11 /* Orders.swift */,
+				187507B92A1A81BA00FBDD5E /* Rating.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		765231EA6796D3DA80A2879D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82172666F592C22748DA138A /* Pods-MineralWaterSupplier.debug.xcconfig */,
+				5B4D05F04E05881BEFC27C68 /* Pods-MineralWaterSupplier.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7A87D88F1FE1240B8A851CD2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				404C062FB428B42C39B2780B /* Pods_MineralWaterSupplier.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		980A02BB296DD2CB004465F2 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				18233B67296DC9AC0087743F /* Assets.xcassets */,
+				980A02C0296DE197004465F2 /* Color.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		980A02BC296DD2D9004465F2 /* Lifecycle */ = {
+			isa = PBXGroup;
+			children = (
+				18233B5B296DC9A90087743F /* AppDelegate.swift */,
+				18233B5D296DC9A90087743F /* SceneDelegate.swift */,
+			);
+			path = Lifecycle;
+			sourceTree = "<group>";
+		};
+		980A02BD296DDE7D004465F2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				188B28C12976F130002EF12F /* UITextFieldX.swift */,
+				980A02BE296DDEB8004465F2 /* UIView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		980A02C2296DE843004465F2 /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				980A02C4296DE85F004465F2 /* SignupViewController.swift */,
+			);
+			name = Signup;
+			path = "Auth module";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18233B57296DC9A90087743F /* MineralWaterSupplier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18233B6F296DC9AC0087743F /* Build configuration list for PBXNativeTarget "MineralWaterSupplier" */;
+			buildPhases = (
+				2D07730CB11ABAEB5093789A /* [CP] Check Pods Manifest.lock */,
+				18233B54296DC9A90087743F /* Sources */,
+				18233B55296DC9A90087743F /* Frameworks */,
+				18233B56296DC9A90087743F /* Resources */,
+				5A0C6062C8DE159B2860DA15 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MineralWaterSupplier;
+			productName = MineralWaterSupplier;
+			productReference = 18233B58296DC9A90087743F /* MineralWaterSupplier.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18233B50296DC9A90087743F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					18233B57296DC9A90087743F = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 18233B53296DC9A90087743F /* Build configuration list for PBXProject "MineralWaterSupplier" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18233B4F296DC9A90087743F;
+			productRefGroup = 18233B59296DC9A90087743F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18233B57296DC9A90087743F /* MineralWaterSupplier */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18233B56296DC9A90087743F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D7BF62296DCEAB0014BFC2 /* Auth.storyboard in Resources */,
+				18233B6B296DC9AC0087743F /* LaunchScreen.storyboard in Resources */,
+				980A02C1296DE197004465F2 /* Color.xcassets in Resources */,
+				18233B68296DC9AC0087743F /* Assets.xcassets in Resources */,
+				18233B63296DC9A90087743F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D07730CB11ABAEB5093789A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MineralWaterSupplier-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A0C6062C8DE159B2860DA15 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MineralWaterSupplier/Pods-MineralWaterSupplier-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MineralWaterSupplier/Pods-MineralWaterSupplier-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MineralWaterSupplier/Pods-MineralWaterSupplier-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18233B54296DC9A90087743F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189BC4ED29A3A8760064FA1F /* NetworkHelper.swift in Sources */,
+				0CB77E1A299B9396009EAC7C /* RedirectHelper.swift in Sources */,
+				18786F982A063014000B03C4 /* SpecailOfferTableViewCell.swift in Sources */,
+				980A02BF296DDEB8004465F2 /* UIView+Extension.swift in Sources */,
+				181430702A1D817000782C67 /* agencyOrderTableViewCell.swift in Sources */,
+				980A02C5296DE85F004465F2 /* SignupViewController.swift in Sources */,
+				18616EFD29D17F2A00CFDBED /* CustomerHomeCollectionViewCell.swift in Sources */,
+				18D7BF60296DCD240014BFC2 /* LoginViewController.swift in Sources */,
+				1821E80329B66E93000D39F7 /* Product.swift in Sources */,
+				18ABE5BC2A195B2B0065F43E /* GiveRatingViewController.swift in Sources */,
+				18AE87E32A1814B700560AA9 /* SearchMaplocationViewController.swift in Sources */,
+				1874C4362A228781007295A6 /* VendorMenuViewController.swift in Sources */,
+				18338F4029DC87510076B18A /* Cart.swift in Sources */,
+				186267FC297AFFA900867798 /* CustomerOrderViewController.swift in Sources */,
+				181EF45029BE45F800CFB2EA /* VendorHomeTableViewCell.swift in Sources */,
+				18CF33F62A237CDF006BF30E /* ShowScheduleTableViewCell.swift in Sources */,
+				18AB2D5E29787EEB00B09D35 /* AuthNavigationController.swift in Sources */,
+				183FE552297897F200CF6D44 /* Ranking.swift in Sources */,
+				183FE550297894DD00CF6D44 /* RankingTableViewCell.swift in Sources */,
+				18C365372A2033FF006FE37C /* AddScheduleViewController.swift in Sources */,
+				0CB77E17299B87AC009EAC7C /* MenuViewController.swift in Sources */,
+				18AC52E029B1269E00942F80 /* AddwarehouseViewController.swift in Sources */,
+				18111F3A2A080C7C0042A475 /* updateProductsViewController.swift in Sources */,
+				18338F4629DC96E20076B18A /* CustomerCartTableViewCell.swift in Sources */,
+				1835163C29AA6AD3002FA001 /* AddProductsViewController.swift in Sources */,
+				1812306F29B1FFFD0074039E /* AdminModels.swift in Sources */,
+				1840CC522978D77D009287CF /* totalorderadminTableViewCell.swift in Sources */,
+				187BF9C82978F08F004E1E22 /* vendorHomeViewController.swift in Sources */,
+				183193652A1D68FC0049F9C4 /* AgencyrequestTableViewCell.swift in Sources */,
+				183FE5542978A11500CF6D44 /* VendorRequestViewController.swift in Sources */,
+				18C32A012A087469001B8547 /* trackingViewController.swift in Sources */,
+				1874FD022A20CD1100CE2595 /* AssignOrderTableViewCell.swift in Sources */,
+				188016A62A1AC53700FF014F /* saveLocViewController.swift in Sources */,
+				1871DAFF2A2009BD002D35F4 /* agencyOrderDetailsViewController.swift in Sources */,
+				18208B1529BA19870046140E /* RedirectScreen.swift in Sources */,
+				18409CB32978DE7100B711AA /* OrderDetailsViewController.swift in Sources */,
+				1874FD002A20CB9F00CE2595 /* AssignOrderViewController.swift in Sources */,
+				1815FCC329C1B57D00BBD91A /* Customertabbar.swift in Sources */,
+				18D7BF5E296DCBF20014BFC2 /* LoginModel.swift in Sources */,
+				185E6F2A2A2292C600947AA4 /* WeeklyScheduleViewController.swift in Sources */,
+				187507BA2A1A81BA00FBDD5E /* Rating.swift in Sources */,
+				187F47132A34D3A4004C082B /* DeliveryboyhomeTableViewCell.swift in Sources */,
+				183D7D8D29A52C7B001EA3AA /* Background.swift in Sources */,
+				18D240B82A1FD39C00669286 /* neworderViewController.swift in Sources */,
+				1855DFB62A0FD5DB00D7B53F /* PlaceOrderViewController.swift in Sources */,
+				187938592A0460D400DEFC11 /* Orders.swift in Sources */,
+				18580FAF297847830001E2AA /* AdminHomeViewController.swift in Sources */,
+				1871DB012A2009DA002D35F4 /* agencyorderdetailsTableViewCell.swift in Sources */,
+				18CF33F42A237CBE006BF30E /* ShowScheduleViewController.swift in Sources */,
+				186D0A1029A7735600652F06 /* APIWrapper.swift in Sources */,
+				1879B9872A1F858E0049F22A /* NewOrdersTableViewCell.swift in Sources */,
+				18233B66296DC9A90087743F /* MineralWaterSupplier.xcdatamodeld in Sources */,
+				1829C49229B3FD2700F5128A /* vendorTabBar.swift in Sources */,
+				183FE5592978A35B00CF6D44 /* vendorrequestcellTableViewCell.swift in Sources */,
+				183193632A1D68C00049F9C4 /* AgencyRequestViewController.swift in Sources */,
+				18233B5C296DC9A90087743F /* AppDelegate.swift in Sources */,
+				181430722A1D818C00782C67 /* agencyOrderViewController.swift in Sources */,
+				186249802A18D5920007312A /* CustomerMenuViewController.swift in Sources */,
+				184DB7322978B98D00CCC904 /* TotalOrderAdminViewController.swift in Sources */,
+				0C10738B29A4FAB800DEF5BC /* Utility.swift in Sources */,
+				187F47172A351752004C082B /* StartRideViewController.swift in Sources */,
+				18786F9D2A0655E5000B03C4 /* viewRatesTableViewCell.swift in Sources */,
+				18ABE5BA2A194BBB0065F43E /* RatingTableViewCell.swift in Sources */,
+				183611DE29C7841B003265DF /* VendorProductDetailsViewController.swift in Sources */,
+				18680FF52973266500482578 /* CustomerHomeViewController.swift in Sources */,
+				18233B5E296DC9A90087743F /* SceneDelegate.swift in Sources */,
+				18409CB62978E4B600B711AA /* UpdateStatusAdminViewController.swift in Sources */,
+				18786F962A062FED000B03C4 /* SpecialofferViewController.swift in Sources */,
+				18398F672A0563030022FC1F /* OrderDetailTableViewCell.swift in Sources */,
+				18338F4229DC8D720076B18A /* CartDisplayViewController.swift in Sources */,
+				18786F9B2A06558F000B03C4 /* viewRatesViewController.swift in Sources */,
+				182F6BBB2A3A4D01002600D8 /* demoViewController.swift in Sources */,
+				183FE54D2978805800CF6D44 /* AdminRankingViewController.swift in Sources */,
+				189C7B8C2A23D0BD00F42CA4 /* ExportCsvViewController.swift in Sources */,
+				1879B9852A1F85780049F22A /* NewOrdersViewController.swift in Sources */,
+				187F47112A34D308004C082B /* DeliveryBoyHomeViewController.swift in Sources */,
+				187507BC2A1A942C00FBDD5E /* RateViewController.swift in Sources */,
+				187F47152A351075004C082B /* HomeViewController.swift in Sources */,
+				18ABE5B82A1903BD0065F43E /* RatingViewController.swift in Sources */,
+				183193612A1D681A0049F9C4 /* SuperAdminHomeViewController.swift in Sources */,
+				188B28C22976F130002EF12F /* UITextFieldX.swift in Sources */,
+				18114FAE296E06B30076FC07 /* SplashViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18233B61296DC9A90087743F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18233B62296DC9A90087743F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18233B69296DC9AC0087743F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18233B6A296DC9AC0087743F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18233B6D296DC9AC0087743F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18233B6E296DC9AC0087743F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18233B70296DC9AC0087743F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82172666F592C22748DA138A /* Pods-MineralWaterSupplier.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CTU277PX96;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MineralWaterSupplier/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please Allow To See Current Location";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Please allow access to gallery";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.MineralWaterSupplier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18233B71296DC9AC0087743F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B4D05F04E05881BEFC27C68 /* Pods-MineralWaterSupplier.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CTU277PX96;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MineralWaterSupplier/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please Allow To See Current Location";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Please allow access to gallery";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.MineralWaterSupplier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18233B53296DC9A90087743F /* Build configuration list for PBXProject "MineralWaterSupplier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18233B6D296DC9AC0087743F /* Debug */,
+				18233B6E296DC9AC0087743F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18233B6F296DC9AC0087743F /* Build configuration list for PBXNativeTarget "MineralWaterSupplier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18233B70296DC9AC0087743F /* Debug */,
+				18233B71296DC9AC0087743F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18233B64296DC9A90087743F /* MineralWaterSupplier.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18233B65296DC9A90087743F /* MineralWaterSupplier.xcdatamodel */,
+			);
+			currentVersion = 18233B65296DC9A90087743F /* MineralWaterSupplier.xcdatamodel */;
+			path = MineralWaterSupplier.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18233B50296DC9A90087743F /* Project object */;
+}

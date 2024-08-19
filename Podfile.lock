@@ -1,0 +1,40 @@
+PODS:
+  - Alamofire (5.7.1)
+  - Cosmos (23.0.0)
+  - DateTimePicker (2.5.3)
+  - DropDown (2.3.13)
+  - IQKeyboardManagerSwift (6.5.11)
+  - SwiftCSV (0.8.1)
+  - SwiftyJSON (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - Cosmos
+  - DateTimePicker
+  - DropDown
+  - IQKeyboardManagerSwift
+  - SwiftCSV
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Cosmos
+    - DateTimePicker
+    - DropDown
+    - IQKeyboardManagerSwift
+    - SwiftCSV
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 0123a34370cb170936ae79a8df46cc62b2edeb88
+  Cosmos: b5c6a9a637e28a061b54c8f8b1d8529d7d4db73f
+  DateTimePicker: 52701ddf656a50856d3510955933f767cd2c947c
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  IQKeyboardManagerSwift: c7955c0bdbf7b2eb29bb7daaa44e3d90f55a9a85
+  SwiftCSV: cfe1bee1b37ada48f065e8e12cb43dce9b4bdc1b
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+
+PODFILE CHECKSUM: 0dc0213c9e95fec86d19ef5ad4fd2ec9ff6dc28c
+
+COCOAPODS: 1.8.4

@@ -1,0 +1,8 @@
+${PODS_ROOT}/Target Support Files/Pods-MineralWaterSupplier/Pods-MineralWaterSupplier-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/Cosmos/Cosmos.framework
+${BUILT_PRODUCTS_DIR}/DateTimePicker/DateTimePicker.framework
+${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework
+${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework
+${BUILT_PRODUCTS_DIR}/SwiftCSV/SwiftCSV.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework
